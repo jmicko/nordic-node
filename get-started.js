@@ -1,0 +1,1 @@
+console.log('Check the challenges folder to see what happens next!');
