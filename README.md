@@ -4,16 +4,13 @@ Node is just javascript code that runs on your computer. To run a file on your c
 
 In the winter of 1925, a deadly outbreak of diphtheria struck fear in the hearts of Nome residents. 
 
-Base
+## Base
 
-- 100-
-- 110-node-numbers-serum-pickup
-- 120-node-objects-sleigh-loading
-- 130-node-functions-dog-calculation
+- 100-example
+- 110-node-numbers
+- 120-node-objects
+- 130-node-functions
 
-After these three are complete, you should be able to run `node test.js` and see `Passed!` for each of the three challenges.
+After these are complete, you should be able to run `node test.js` and see `Passed!` for each of the tests.
 
-Stretch
-
-- 
-
+Take a look at `test.js` and think about what is happening here. What do the first few lines do? How do `module.exports` and `require` relate to each other?
