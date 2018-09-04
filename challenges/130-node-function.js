@@ -3,7 +3,7 @@
 // Here we want to export a function
 
 // it takes 2 dogs to pull the sleigh when it is empty
-// it takes 2 more dogs to pull each additional box
+// each additional dog may pull 2 additional boxes
 
 // divide the number of boxes by 2, then add 2
 // if the input number was 2, the result should be 3
