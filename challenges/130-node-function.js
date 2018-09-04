@@ -14,3 +14,6 @@ module.exports = function (numberOfBoxes) {
 }
 
 // now run `node test.js` in the terminal, to see what happens
+
+// STRETCH: You may not have half of a dog
+// If 3.5 dogs are required, the response should be 4
