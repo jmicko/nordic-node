@@ -11,6 +11,4 @@ In the winter of 1925, a deadly outbreak of diphtheria struck fear in the hearts
 - 120-node-objects
 - 130-node-functions
 
-After these are complete, you should be able to run `node test.js` and see `Passed!` for each of the tests.
-
-Take a look at `test.js` and think about what is happening here. What do the first few lines do? How do `module.exports` and `require` relate to each other?
+Detailed instructions may be found inside of the files. Start by opening `100-example.js`
