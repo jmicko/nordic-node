@@ -11,7 +11,7 @@ In the winter of 1925, a deadly outbreak of diphtheria struck fear in the hearts
 - 120-node-objects
 - 130-node-functions
 
-Detailed instructions may be found inside of the files. Start by opening `100-example.js`
+Detailed instructions may be found inside of the files.
 
 ## Stretch
 
