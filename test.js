@@ -34,7 +34,7 @@ if (nodeFunction(8) == 6) {
     console.log(`
     XXXXXXXXXXX
     FAILED nodeFunction
-    function should return 6 when 10 is passed
+    function should return 6 when 8 is passed
     XXXXXXXXXXX`);
 }
 
