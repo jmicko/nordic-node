@@ -5,6 +5,6 @@
 // module.exports allows us to share information in one file with another file
 // change the number to 20, the number of mushers we have available
 
-module.exports = 0;
+module.exports = 20;
 
 // now run `node test.js` in the terminal, to see what happens
