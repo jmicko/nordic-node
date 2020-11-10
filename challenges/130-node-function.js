@@ -10,7 +10,7 @@
 
 module.exports = function (numberOfBoxes) {
     // YOUR CODE HERE
-    let totalDogs = (numberOfBoxes / 2) + 2;
+    let totalDogs = Math.ceil((numberOfBoxes / 2) + 2);
     return totalDogs;
 }
 
