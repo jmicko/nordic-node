@@ -3,7 +3,7 @@
 // the number of mushers should be 20
 
 module.exports = {
-    mushers: 0,
+    mushers: 20,
     dogs: 150,
     boxes: 140,
 };
