@@ -25,25 +25,29 @@
 
 module.exports = function (box) {
     // YOUR CODE HERE
-    let vials = 0
-    vials += (function(){
-        console.log('box on line 30 is', box);
-
-            for (const space of box) {
-                console.log('space and box are', space, box);
-                // check if the space is an array
-                if (Array.isArray(space)) {
-                    vials += this.space;
-                } else if (space == 'vial') {
-                    console.log('found a vial');
-                    vials++;
-                }
-                return 0;
+    // Start a variable to track the number of vials
+    let vials = 0;
+    function findVials(box) {
+        // loop through all spaces in a box, and check if there are more boxes inside
+        for (let i = 0; i < box.length; i++) {
+            const space = box[i];
+            // is there a box in this space?
+            if (Array.isArray(space)) {
+                // call this function on itself so it can count the number of vials in a box inside a box
+                findVials(space);
+                // If it's not another box, check if its a vial
+            } else if (space === 'vial') {
+                // if it's a vial, add it to the count
+                vials++;
             }
         }
-        
-    })();
-    return vials
+    }
+    // call the function to count up the vials
+    findVials(box)
+
+
+    // return the total number of vials
+    return vials;
 }
 
 // Don't forget to write tests!
