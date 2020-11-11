@@ -25,7 +25,25 @@
 
 module.exports = function (box) {
     // YOUR CODE HERE
+    let vials = 0
+    vials += (function(){
+        console.log('box on line 30 is', box);
 
+            for (const space of box) {
+                console.log('space and box are', space, box);
+                // check if the space is an array
+                if (Array.isArray(space)) {
+                    vials += this.space;
+                } else if (space == 'vial') {
+                    console.log('found a vial');
+                    vials++;
+                }
+                return 0;
+            }
+        }
+        
+    })();
+    return vials
 }
 
 // Don't forget to write tests!
